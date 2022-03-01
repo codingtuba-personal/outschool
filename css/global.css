@@ -1,0 +1,10 @@
+*{font-family: "Roboto", sans-serif;}
+div.--global.centered-content-parent{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+div.--global.centered-content{
+    width: 100%;
+    max-width: 400px;
+}

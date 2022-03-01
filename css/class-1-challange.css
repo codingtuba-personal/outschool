@@ -1,0 +1,11 @@
+html{
+    background-color:aqua;
+    color:white;
+}
+a[href]{
+    color:white;
+}
+.centered-content{
+    width:100%;
+    max-width:450px;
+}
