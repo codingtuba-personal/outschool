@@ -1,0 +1,13 @@
+.caption::after{
+    content: " This is added in via the .caption class ";
+    background-color: black;
+    color: white;
+}
+#caption::before{
+    content: " This is added in via the #caption id ";
+    background-color: black;
+    color: white;
+}
+.centered-content{
+    width:500px;
+}

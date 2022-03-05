@@ -1,4 +1,4 @@
-*{font-family: "Roboto", sans-serif;}
+*:not(code){font-family: "Roboto", sans-serif;}
 div.--global.centered-content-parent{
     display: flex;
     justify-content: center;
@@ -7,4 +7,12 @@ div.--global.centered-content-parent{
 div.--global.centered-content{
     width: 100%;
     max-width: 400px;
+}
+code{
+    background-color:rgb(232, 232, 232);
+    border:rgb(232, 232, 232) 2px solid;
+    border-radius:5px ;
+}
+code span,code * span{
+    font-family: monospace !important;
 }
