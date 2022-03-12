@@ -16,3 +16,6 @@ code{
 code span,code * span{
     font-family: monospace !important;
 }
+a[href]{
+    color:black;
+}
