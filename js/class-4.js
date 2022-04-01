@@ -1,9 +1,8 @@
-let interval = setInterval(callback, 1000, 'Parameter 1', 'Parameter 2');
+let counter=0
 
-function callback(a, b)
-{
- // Your code here
- // Parameters are purely optional.
- alert(a);
- alert(b);
+const increment=()=>{
+    counter++;
+    document.querySelector(".couter").innerHTML=counter;
 }
+
+let interval = setInterval(increment, 1000, 'Parameter 1', 'Parameter 2');
